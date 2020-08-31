@@ -29,6 +29,3 @@ jobs:
           playbook: sa.yml
           directory: /etc/ansible
           key: ${{secrets.ANSIBLE}}
-          inventory: |
-            [all]
-            34.123.67.156
