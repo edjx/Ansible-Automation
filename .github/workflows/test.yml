@@ -23,7 +23,7 @@ jobs:
           key: ${{secrets.SSH_PRIVATE_KEY}}
           inventory: |
             [local]
-            104.197.106.211 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_pass=1122
+            34.123.67.156 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_pass=1122
             
            # localhost ansible_connection=local
              
