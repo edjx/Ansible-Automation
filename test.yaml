@@ -2,9 +2,9 @@
   - name: "Playing with Ansible and Git"
     hosts: all
     become: true
-    become_method: sudo
+    become_user: 
     tasks:
     - name: test
-      apt:
+      yum:
         name: git
         state: latest
