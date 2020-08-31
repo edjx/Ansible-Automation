@@ -19,7 +19,7 @@ jobs:
         uses: ./
         with:
           playbook: test.yml
-          directory: /home/srichityala501
+          directory: ~/
           key: ${{secrets.SSH_PRIVATE_KEY}}
          # inventory: |
          #  localhost ansible_connection=local
