@@ -7,4 +7,4 @@
     - name: test
       yum:
         name: git
-        state: latest
+        state: absent
