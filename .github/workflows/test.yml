@@ -22,5 +22,5 @@ jobs:
           #directory: ~/
           key: ${{secrets.SSH_PRIVATE_KEY}}
           inventory: |
-            [all]
-            104.197.106.211
+            [local]
+            localhost ansible_connection=local
