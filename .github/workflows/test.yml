@@ -31,4 +31,4 @@ jobs:
           key: ${{secrets.ANSIBLE}}
           inventory: |
             [all]
-            localhost ansible_connection=local
+            34.123.67.156
