@@ -3,6 +3,6 @@
     hosts: all
     tasks:
     - name: test
-      shell: |
-          cd ~/
-          mkdir testf
+      yum:
+        name: git
+        state: latest
