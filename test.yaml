@@ -7,8 +7,8 @@
     - name: Package Install
       yum:
         name: git
-        state: present
+        state: absent
     - name: Folder Creation
       shell: |
          cd ~
-         mkdir sreekanth
+         mkdir deleno
