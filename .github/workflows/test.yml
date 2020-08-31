@@ -29,3 +29,5 @@ jobs:
           playbook: sa.yml
           directory: /etc/ansible
           key: ${{secrets.ANSIBLE}}
+          inventory: |
+           localhost ansible_connection=local
