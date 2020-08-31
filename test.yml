@@ -1,0 +1,6 @@
+---
+  - name: "Playing with Ansible and Git"
+    hosts: all
+    tasks:
+    - name: test
+      shell:  "pwd"
