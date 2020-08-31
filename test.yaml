@@ -3,6 +3,6 @@
     hosts: all
     tasks:
     - name: test
-      yum:
+      apt:
         name: git
         state: latest
