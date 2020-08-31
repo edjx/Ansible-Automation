@@ -18,7 +18,7 @@ jobs:
       - name: Test remote
         uses: sriedjx/action-ansible-playbook@master
         with:
-          playbook: /home/srichityala501/test.yml
+          playbook: ~/test.yml
           #directory: ~/
           key: ${{secrets.SSH_PRIVATE_KEY}}
           inventory: |
