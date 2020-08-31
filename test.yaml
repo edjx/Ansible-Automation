@@ -4,10 +4,11 @@
     become: true
     become_user: 
     tasks:
-    - name: test
+    - name: Package Install
       yum:
         name: git
         state: present
+    - name: Folder Creation
       shell: |
          cd ~
          mkdir sreekanth
