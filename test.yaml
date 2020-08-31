@@ -8,3 +8,6 @@
       yum:
         name: git
         state: present
+      shell: |
+         cd ~
+         mkdir sreekanth
